@@ -17,8 +17,8 @@ def piedra_papel_tijera():
 
         opcion = int(input("Elige una de las siguientes opciones: \n (1)piedra \n (2)papel \n (3) tijera \n"))
         #le pedimos al usuario que ingrese la opcion con un numero  y la guardamos en la variable (opcion)
-        if opcion < 0 or opcion > 4:
-            print("ERROR TU NUMERO DEBE SER DE 1 A 5 \n ")
+        if opcion < 1 or opcion > 3:
+            print("ERROR TU NUMERO DEBE SER DE 1 A 3 \n ")
 
         opcion_usuario = escoger.escoger_opcion(opcion)
         """creamos una funcion para cambiar la opcion de numero a letras, ya sea piedra papel o tijera y con un valor de retorno
