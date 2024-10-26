@@ -1,6 +1,6 @@
 import random
-import escoger
-import ganador
+import piedra_papel.escoger as escoger
+import piedra_papel.ganador as ganador
 
 def piedra_papel_tijera():
     #inicializamos 2 variables qur usaremos mas adelante

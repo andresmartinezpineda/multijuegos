@@ -19,9 +19,6 @@ def ganador(opcion_usuario,opcion_consola):
         return 1
 
     # OPCIONES DE PERDER
-    elif opcion_consola == "piedra" and opcion_usuario == "tijera": #CONSOLA = PIEDRA       VS      USUARIO = TIJERA
+    else:
         print(f"TU  =    {opcion_usuario}       VS    CONSOLA =   {opcion_consola} \n  PERDISTE")
-    elif opcion_consola == "papel" and opcion_usuario == "piedra": #CONSOLA = PAPEL       VS      USUARIO = PIEDRA
-        print(f"TU  =   {opcion_usuario}        VS     CONSOLA  =   {opcion_consola} \n  PERDISTE")
-    elif opcion_consola == "tijera" and opcion_usuario == "papel": #CONSOLA = TIJERA       VS      USUARIO = PAPEL
-        print(f"TU  =    {opcion_usuario}       VS      CONSOLA =   {opcion_consola} \n  PERDISTE")
+    #si no ganas ni empatas cualquier opcion que quede sera perder
